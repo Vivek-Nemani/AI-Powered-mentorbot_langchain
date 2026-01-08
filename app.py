@@ -9,7 +9,7 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# Custom CSS for better styling
+# Custom CSS
 st.markdown("""
 <style>
     .main-header {
@@ -62,7 +62,7 @@ module_options = [
     "Agentic AI"
 ]
 
-# Map display names to actual names (identity map after removing emojis)
+# Map display names to actual names
 module_label_map = {name: name for name in module_options}
 
 st.markdown("### Choose Your Learning Module")
